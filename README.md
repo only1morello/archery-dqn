@@ -3,7 +3,7 @@ How small can a neural network be and still learn to aim.
 
 A Deep Q-Network that learns to shoot arrows at moving targets from raw pixel input. No hardcoded rules, no heuristics — pure trial-and-error learning. Built from scratch in numpy.
 
-The core question: **what's the minimum model size that achieves near-maximum performance?**
+The core concern: **what's the minimum model size that achieves near-maximum performance?**
 
 ---
 
