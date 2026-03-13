@@ -1,4 +1,5 @@
-# Archery DQN — How Small Can a Neural Network Be and Still Learn to Aim?
+# Archery DQN
+# How small can a neural network be and still learn to aim.
 
 A Deep Q-Network that learns to shoot arrows at moving targets from raw pixel input. No hardcoded rules, no heuristics — pure trial-and-error learning. Built from scratch in numpy.
 
