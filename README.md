@@ -10,7 +10,7 @@ The core question: **what's the minimum model size that achieves near-maximum pe
 
 Reinforcement learning agents typically operate with large networks and high-resolution inputs. This project asks the opposite question: how far can we compress a DQN while retaining its learned behavior? Starting from a standard 3.5 MB architecture (84×84 input, 128/64 hidden layers), I systematically reduced frame resolution and network width, measuring hit rate against model size across 8 configurations. The result: a **117 KB model** (30×30 input, 32/24 hidden layers) achieves **58.7% hit rate** — within 0.3 percentage points of the full-size model. A 30× reduction in size with no meaningful loss in performance. The remaining gains from 117 KB to 3.5 MB are almost entirely wasted on encoding background pixels the agent never uses.
 
-https://github.com/only1morello/archery-dqn/raw/agent_evolution.mp4
+[<video src="https://github.com/only1morello/archery-dqn/raw/main/agent_evolution.mp4" controls autoplay loop muted width="600"></video>](https://github.com/user-attachments/assets/6eb94fc0-bd52-4d1b-85e5-2d9816d8742e)
 
 ---
 
